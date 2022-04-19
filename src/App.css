@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./background/pexels-cup-of-couple-7303995.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 600px) {
+  .App {
+    background-image: url("./background/pexels-nicole-avagliano-2706654.jpg");
+    /* src/background/pexels-nicole-avagliano-2706654.jpg */
+  }
+}

@@ -1,0 +1,88 @@
+.navcontainer {
+    width: 100vw;
+    padding: 32px 40px 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .inputtitle {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    border: none;
+    caret-color: #2fe6ff;
+    margin-left: 40px;
+    background: none;
+  }
+  
+  .inputtitle::placeholder {
+    color: #242424;
+    opacity: 0.8;
+  }
+  
+  .inputtitle:focus {
+    outline: none;
+  }
+  
+  .cancelcontainer,
+  .donecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+  }
+  
+  .canceltext,
+  .donetext {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.005em;
+    text-align: right;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .canceltext {
+    margin-left: 4px;
+  }
+  
+  .canceltext:hover,
+  .donetext:hover {
+    opacity: 1;
+  }
+  
+  .canceltextpress, .canceltextpress:hover,
+  .donetextpress, .donetextpress:hover {
+    color: #2FE6FF;
+  }
+  
+  .arrow {
+    height: 18px;
+  }
+  
+  @media only screen and (max-width: 1040px) {
+    .navcontainer {
+      padding: 32px 24px 24px 24px;
+    }
+    .inputtitle {
+      margin-left: 24px;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .inputtitle::placeholder {
+      color: white;
+      opacity: 0.8;
+    }
+    .inputtitle {
+      color: white;
+    }
+  }
+  

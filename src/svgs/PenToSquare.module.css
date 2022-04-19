@@ -1,0 +1,20 @@
+.svg {
+    cursor: pointer;
+  }
+  
+  .svg:hover .background {
+    fill: #f4f4f4;
+  }
+  
+  .background {
+    fill: #ffffff;
+  }
+  
+  .icon {
+    fill: #242424;
+  }
+  
+  .pressed {
+    fill: #2fe6ff;
+  }
+  

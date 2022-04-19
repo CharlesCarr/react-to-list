@@ -1,0 +1,56 @@
+.fulllist {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.listitem {
+  background: #ffffff;
+  list-style: none;
+  border: 0.75px solid #ececec;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 18px 0 16px 18px;
+  height: 60px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.listitem:hover {
+  box-shadow: 0px 2px 10px 0px #00000014;
+}
+
+.listtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  color: #000000;
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.listplus {
+  width: 14.63px;
+  height: 14.63px;
+  margin-right: 16px;
+}
+
+.itemclicked {
+  background-color: #f4f4f4;
+}
+
+@media only screen and (max-width: 1040px) {
+  .fulllist {
+    width: calc(100vw - 48px);
+  }
+}

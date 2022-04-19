@@ -1,0 +1,20 @@
+.svg {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+
+.svg:hover {
+    background-color: #F4F4F4;
+}
+
+.icon {
+    fill: #242424;
+}
+
+.pressed {
+    fill: #2FE6FF;
+}

@@ -1,0 +1,54 @@
+.headingContainer {
+  width: 100vw;
+  padding: 32px 40px 24px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightHead {
+  justify-self: flex-end;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  color: white;
+
+  flex: none;
+  order: 3;
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.createbtn {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+  fill: red;
+}
+.createbtn:hover {
+  fill: #f4f4f4;
+}
+
+@media only screen and (max-width: 1040px) {
+  .headingContainer {
+    padding: 32px 24px 24px 24px;
+  }
+}
