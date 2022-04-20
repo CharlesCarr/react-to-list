@@ -8,4 +8,4 @@ Simple To Do list web app built with React.js and styled with CSS to practice Re
 
 ### Hosting
 
-Hosting with Firebase (Will update with active link)
+Hosting with Firebase (https://react-todo-list-app-444f2.web.app/)
